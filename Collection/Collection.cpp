@@ -810,6 +810,59 @@
     //     cout<<obj.name<<endl<<obj.age<<endl;
     //  }
 
+    //    Hybrid Iheritance 
+
+//     class A{
+//     public: int a=101;
+//    };
+//    class B :virtual public A
+//    {
+     
+//    };
+//    class C : virtual public A
+//    {
+
+//    };
+//    class D :public B, public C
+//    {
+
+//    };
+//    int main(){
+//     D dd;
+//     cout<<dd.a;
+//    }
+
+    // Hybrid Inheritance example with constructor 
+
+    // class A{
+    //     public:
+    //     int a=101;
+    //     A(){
+    //         cout<<"A";
+    //     }
+    // };
+    // class B:virtual public A{
+    //    public: B(){
+    //         cout<<"B";
+    //     }
+    // };
+    // class C :virtual public A{
+    //   public:  C(){
+    //         cout<<"C";
+    //     }
+    // };
+    // class D :public C,public B{
+    //    public: D(){
+    //         cout<<"D";
+    //     }
+    // };
+    // int main(){
+    //     D obj;
+    // }
+
+    //  Reverse Swapping 
+
+
 
 
 

@@ -501,7 +501,125 @@
     //     cout<<obj.a;
     //  }
 
+    // OOPs Encapsulation 
     
+    //  class one(){
+    //      int a;
+    //     public: void show(int x){
+    //       a=x;
+    //       cout<<a;
+    //     }                                         INcomplete
+    //  };
+    //  int main(){
+
+    //  }
+
+    //    Class and class object -------------------------------------
+
+    //  class info {
+    //  public:  int b=101;
+    //     string name;
+    //     int rollno;
+    //     char bg;
+
+    //  };
+    //  int main(){
+    //     info a;
+    //     a.name="yash";
+    //     a.rollno=33;
+    //     cout<<a.name<<" "<<a.rollno;
+    //     cout<<a.b;
+    //  }
+
+    //  OOPs Encapsulation -----------------------------------------------------
+
+    // class info{
+    //     int a;
+    //   public:
+    //   void name(int x){
+    //     a=x;
+    //     cout<<a;
+    //   }
+    // };
+    // int main(){
+    //     info var;
+    //     int x=10;
+    //     var.name(10);
+    // }
+
+    // Inheritance -------------------------------------------------------
+ 
+    //  Single line Inheritance
+
+    // class one{
+    //     public: int a=101;
+    // };
+    // class two :public one
+    // {
+       
+    // };
+
+    // int main(){
+    //     two obj;
+    //     cout<<obj.a;
+    // }
+
+//    Multi-level Inheritance 
+
+    // class one{
+    //     public: int a=101;
+    // };
+    // class two :public one {
+      
+    // };
+    // class three :public two{
+
+    // };
+    // int main(){
+    //     three obj;
+    //     cout<<obj.a;
+
+    // }
+
+    // Multiple Inheritance 
+
+    // class one{
+    //     public: int a=101;
+    // };
+    // class two{
+
+    // };
+    // class three :public two,public one{
+
+    // };
+    // int main(){
+    //     three obj;
+    //     cout<<obj.a;
+    // }
+
+    //   Hierarchical Inheritance
+
+    //  class one{
+    //     public: int a=101;
+    //  };
+    //  class two :public one{
+
+    //  };
+    //  class three :public one{
+
+    //  };
+    //  int main(){
+    //     two obj;
+    //     three obj1;
+    //     cout<<obj.a;
+    //     cout<<endl;
+    //     cout<<obj1.a;
+    //  }
+
+    
+
+
+
 
     
 
