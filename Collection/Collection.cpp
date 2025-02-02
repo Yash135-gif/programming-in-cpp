@@ -173,7 +173,7 @@
 
     // int num=123;
     // int rv=0;
-    // for(num=123;num>0;num/10){
+    // for(num=123;num>0;num/=10){
     //   rv=rv*10+num%10;
     // }
     // cout<<rv;
@@ -184,7 +184,7 @@
     // int rv=0;
     // int number=num;
     // // int bro
-    // for(num=153;num>0;num/10){
+    // for(num=153;num>0;num/=10){
     //   rv=rv+(num%10)*(num%10)*(num%10);
 
     // }
@@ -411,30 +411,30 @@
     //     arm(10);
     // }
 
-//    # include <iostream>
-//    using namespace std;
-//    int main(){
+   # include <iostream>
+   using namespace std;
+   int main(){
    
     // Hollo diamond --------------------------------- (incomplete)
 
-    //  int n=5;
-    // for(int r=0;r<=n;r++){
-    //     for(int c=0;c<(2*n);c++){
-    //         if(r+c<=n-1){
-    //             cout<<"*";
-    //         }
-    //         else{
-    //             cout<<" ";
-    //         }
-    //         if(n+r<=c){
-    //             cout<<"*";
-    //         }
-    //         else{
-    //             cout<<" ";
-    //         }
-    //     }
-    //     cout<<endl;
-    // }
+//      int n=5;
+//     for(int r=0;r<=n;r++){
+//         for(int c=0;c<(2*n);c++){
+//             if(r+c<=n-1){
+//                 cout<<"*";
+//             }
+//             else{
+//                 cout<<" ";
+//             }
+//             if(n+r<=c){
+//                 cout<<"*";
+//             }
+//             else{
+//                 cout<<" ";
+//             }
+//         }
+//         cout<<endl;
+//     }
 
       
 //    }
@@ -721,7 +721,7 @@
 //     info a;
 //     a.name='ayush';   
 //     info *b=&a;
-//     cout<<b->name;
+//     cout<<b->nmae;
 // }
 
     //   structure -------------------------------------------
@@ -774,25 +774,26 @@
 
     //    linked list  (self referential structure)
 
-        // struct info {
-        //     string name;
-        //     int age;
+    //      struct info {
+    //          string name;
+    //          int age;
         
-        //    struct info *link;
-        // };
-        // int main(){
-        //     info s1;
-        //     info s2;
-        //     s1.name="yash";
-        //     s1.link=NULL;
-        //     s2.link=NULL;
-        //     s2.name="Vansh";
-        //     s1.age=20;
-        //     s2.age=21;
-        //     s2.link=&s1;
-        //     cout<<s2.name;
+    //     struct info *link;
+    //  };
+    //  int main(){
+    //         info s1;
+    //        info s2;
+    //        s1.name="yash";
+    //    s1.link=NULL;
+    //     s2.link=NULL;
+    //        s2.name="Vansh";
+    //         s1.age=20;
+    //          s2.age=21;
+    //         s2.link=&s1;
+    //         cout<<s2.name<<"  "<<s2.link->name;
 
-        // }
+
+    //      }
     
         //   OOPs 
 
@@ -860,7 +861,23 @@
     //     D obj;
     // }
 
-    //  Reverse Swapping 
+    //  class one{
+
+    //     public: int a=101;
+    //  };
+    //  class two : public one{
+
+
+    //  };
+    //  class three :  public two {
+
+
+    //  };
+
+    //  int main(){
+    //     three obj;
+    //     cout<<obj.a;
+    //  }
 
 
 
