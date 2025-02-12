@@ -879,6 +879,29 @@
     //     cout<<obj.a;
     //  }
 
+        // Absraction 
+   
+//      class hq{
+//         public: virtual void show()=0;
+//      };
+//      class bhopal :public hq{
+//         public: void show(){
+//             cout<<29593;
+//          }
+//      };
+//      class delhi :public hq{
+//          public: void show(){
+//           cout<<85303;
+//           }
+//    };
+//    int main(){
+//     hq *obj=new delhi();
+//      obj->show();
+//      hq *obj1=new bhopal();
+//      obj1->show();
+//    }
+
+
 
 
 

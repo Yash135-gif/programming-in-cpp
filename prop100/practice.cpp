@@ -616,7 +616,379 @@
     //     cout<<obj1.a;
     //  }
 
+    //   Private and public in OOPs ---------------------------------
+
+    //  class one{
+    //     int a=10;
+    //    public:  
+    //    string name;
+    //    int rollno;
+    //    char bg;
+    //  };
+    //  int main(){
+    //     one obj;
+    //     obj.name="yash";
+    //     obj.rollno=21;
+    //     cout<<obj.name<<"  "<<obj.rollno;
+    //  }
+
+    //  Incapsulation in OOPs
+
+//   class one{
+//     int a;
+//     public: void show(int x){
+//         a=x;
+//         cout<<a;
+//     }
+//   };
+//   int main(){
+//     one obj;
+//     obj.show(12);
+//   }
+
+//   Shallow Copy ------------------------------------
+
+//   class one{
+//     int a;
+//     public:one(int x){
+//       a=x;
+//       cout<<a;
+//     }
+//     public:one(one &obj){
+//          a=obj.a;
+//          cout<<a;
+//     }
+
+//   };
+//   int main(){
+//     one obj(10);
+//     one obj1(obj);
+//   }
+
+//   class one{
+//     int *a;
+//     public: one(int x){
+//         a=new int;
+//         *a=x;
+//     }
+
+//     public: one(one &obj){
+//         a=new int;
+//         *a=*obj.a;
+//     }
+//   };
+//   int main(){
+//     one obj(10);
+//     one obj1(obj);
+//   }
+
+    // Shallow copy 
+
+    // class one{
+    //     int a;
+    //     public: one(int x){
+    //         a=x;
+    //         cout<<a;
+    //     }
+    //     public: one(one &obj){
+    //       a=obj.a;
+    //       cout<<a;
+    //     }
+    // };
+    // int main(){
+    //     one obj(10);
+    //     one obj2=(obj);
+    // }
+
+        // Deep Copy 
     
+    //   class one{
+    //     int *a;
+    //     public: one(int x){
+    //       a=new int;
+    //       *a=x;
+    //       cout<<a;
+    //     }
+    //     public:
+    //     one(one &obj){
+    //       a=new int;
+    //       *a=*obj.a;
+    //     }
+
+
+    //   };
+
+    //   int main(){
+    //     one obj(10);
+    //     one obj2(obj);
+                 
+    // }
+
+    // Deep Copy 
+
+    // class two{
+    //   int *a;
+    //   public: two(int x){
+    //     a=new int;
+    //     *a=x;
+    //     cout<<*a;
+    //   }
+    //   public: two(two &obj){
+    //     a=new int;
+    //     *a=*obj.a;
+    //     cout<<*a;
+    //   }
+    // };
+    // int main(){
+    //     two obj(10);
+    //     two obj1(obj);
+    // }
+
+    // Function Overloading 
+
+    // class one{
+    //     public:void show(){
+    //         cout<<"this is 1";
+    //     }
+    //     public: void show(int x){
+    //         cout<<x;
+    //     }
+    // };
+    // int main(){
+    //     one obj;
+    //     obj.show();
+    //     obj.show(2);
+    // }
+ 
+    //   Operaters Overloading 
+     
+    //  class one{
+    //     public: int value;
+    //     public: one(int x=0){
+    //         value=x;
+    //     }
+     
+    //     one add(one obj){
+    //       one temp;
+    //       temp.value=value + obj.value;
+    //       return temp;
+    //     }
+    //  };
+    //  int main(){
+    //     one obj1(10);
+    //     one obj2(20);
+    //     one obj3;
+    //     obj3=obj2.add(obj1);
+    //     cout<<obj3.value;
+    //  }
+
+        // Operatros overloading --------------------
+
+    // class one{
+    //     public: int value;
+    //     one(int x=0){
+    //      value=x;
+    //     }
+     
+    //   one operator +(one obj)
+    //   {
+    //     one temp;
+    //     temp.value=value+obj.value;
+    //     return temp;
+
+    //   }
+
+    // };
+
+    // int main(){
+    //     one obj1(10);
+    //     one obj2(20);
+    //     one obj3;
+    //     obj3=obj1+(obj2);
+    //     cout<<obj3.value;
+    // }
+
+
+    // self refrential structure -----------------------------------------
+
+    // struct info{
+  
+    //     string name;
+        
+    //     struct info *link;
+
+    // };
+
+    // int main(){
+
+    //     info s1;
+    //     info s2;
+
+    //     s1.link=NULL;
+    //     s1.name="ananya";
+
+    //     s2.link=NULL;
+    //     s2.name="abhishek";
+
+    //     s1.link=&s2;
+    //     cout<<s1.link->name;
+  
+    //     s2.link=&s1;
+    //     cout<<s2.link->name;
+
+
+    // }
+
+    // Incapsulation -------------------------------
+
+    // class info{
+
+    //    int a;
+    //    public: void show(int x){
+    //     a=x;
+    //     cout<<a;
+    //    }
+
+    // };
+
+    // int main(){
+
+    //     info obj;
+    //     obj.show(10);
+    // }
+
+    // Inheritance -----------------------------------
+
+    // class one{
+
+    //     public: int a=50;
+    // };
+
+    // class two : public one
+    // {
+
+    //   public : int b=60;
+    // };
+
+    // class three :  public one
+    // {
+    //   public: int c=200;
+    // };
+
+    // int main(){
+    //    three obj;
+    //    two obj1;
+    //    cout<<obj.a;
+    //    cout<<obj1.a;
+       
+    // }
+
+//     class one{
+//         public : int a=10;
+//     };
+//     class two : virtual public one
+// {
+//     public : int b=20;
+// };
+
+// class three :  virtual public one
+// {
+    
+// };
+// class four :public two, public three
+// {
+
+// };
+
+// int main(){
+//     four obj;
+//     cout<<obj.a;
+// }
+
+//   class A{
+//     public: int a=10;
+
+//     A(){
+//        cout<<"A constructor";
+//     }
+//   };
+
+//   class B : virtual public A
+// {
+//     public : B(){
+//         cout<<"B constructor";
+//     }
+// };
+
+// class C :  virtual public A
+// {
+//     public: C(){
+//         cout<<"C constructor";
+//     }
+// };
+
+// class D :public C,public B
+// {
+//    public : D(){
+//     cout<<"D constructor";
+//    }
+// };
+// int main(){
+
+//     D obj;
+//     cout<<obj.a;
+// }
+
+   
+//   class one{
+//     public: int g;
+//     one(int x){
+//        g=x;
+//        cout<<g;
+//     }
+
+//     one(one &yoo){
+
+//       g=yoo.g;
+//       cout<<endl<<g;
+//     }
+//   };
+
+//   int main(){
+//    one obj(10);
+//    one obj1(obj);
+//   }
+
+   class one{
+
+    public : int *a;
+    one(int x){
+       a=new int;
+       *a=x;
+       cout<<*a;
+
+    }
+
+    one(one &obj){
+
+        a=new int;
+        *a=*obj.a;
+        cout<<*a;
+    }
+   };
+
+   int main(){
+
+    one obj(10);
+    one obj1(obj);
+   }
+
+
+
+
+
+
+      
 
 
 
