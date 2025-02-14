@@ -959,29 +959,169 @@
 //    one obj1(obj);
 //   }
 
-   class one{
+//    class one{
 
-    public : int *a;
-    one(int x){
-       a=new int;
-       *a=x;
-       cout<<*a;
+//     public : int *a;
+//     one(int x){
+//        a=new int;
+//        *a=x;
+//        cout<<*a;
 
-    }
+//     }
 
-    one(one &obj){
+//     one(one &obj){
 
-        a=new int;
-        *a=*obj.a;
-        cout<<*a;
-    }
-   };
+//         a=new int;
+//         *a=*obj.a;
+//         cout<<*a;
+//     }
+//    };
 
-   int main(){
+//    int main(){
 
-    one obj(10);
-    one obj1(obj);
-   }
+//     one obj(10);
+//     one obj1(obj);
+//    }
+
+// class one{
+
+//     public: void show(int a){
+
+
+//         cout<<a;
+//     }
+//     public: void show(){
+//        cout<<"this is a function";
+
+//     }
+
+//    };
+   
+//    int main(){
+//     one obj;
+//     obj.show(10);
+//     obj.show();
+//    }   
+
+   
+// class one{
+
+//    public: int value;
+//    one(int x=0){
+//       value=x;
+//    }
+
+//       one add(one obj){
+//        one temp;
+//        temp.value=value+obj.value;
+//        return temp;
+//    }
+
+// };
+
+// int main(){
+//    one obj1(10);
+//    one obj2(20);
+//    one obj3=obj1.add(obj2);
+
+// }
+
+
+// Operators Overloading 
+
+// class one{
+  
+//     public: int value;
+//     one(int x=0){
+//         value=x;
+//     }
+
+//     one operator +(one obj){
+
+//       one temp;
+//       temp.value=value+obj.value;
+//       return temp;
+
+//     }
+
+
+// };
+
+// int main(){
+
+//     one obj1(10);
+//     one obj2(20);
+//     one obj3=obj1+(obj2);
+//     cout<<obj3.value;
+
+// }
+
+//   class hq{
+
+//      public: virtual void show()=0;
+    
+//   };
+
+//   class bhopal : public hq
+//   {
+
+//     public : void show(){
+
+//         cout<<1200000;
+//     }
+// };
+
+//     class indore : public hq
+//     {
+//        public:  void show(){
+//         cout<<209384;
+//        }
+//     };
+
+//     int main(){
+
+//         hq *obj=new bhopal();
+//         obj->show();
+//         hq *obj1=new indore();
+//         obj1->show();
+//     }
+
+//   class hq{
+
+//       public: virtual void show()=0;
+
+//   };
+
+//   class bhopal :public hq
+//   {
+//       public: void show(){
+//         cout<<"bhopal- City of Lakes";
+//       }
+
+//   };
+//   class indore :public hq
+//   {
+//      public: void show(){
+//         cout<<"indore- have a international cricket stadium";
+//      }
+//   };
+
+//   int main(){
+//     hq *obj=new bhopal();
+//     obj->show();
+//     hq *obj1=new indore();
+//     obj1->show();
+//   }
+
+
+  
+
+   
+
+
+
+
+
 
 
 
